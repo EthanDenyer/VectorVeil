@@ -5,9 +5,10 @@
 
 using namespace std;
 
-int main(int argc, char **argv)
-{
-    int input
+int main(){
+    string x;
     cout << "Enter filepath: "; 
-    cin >> input; // User input
+    cin >> x; // User input
+    cout << "This is your input: " << x;
+    return 0;
 }
