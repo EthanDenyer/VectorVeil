@@ -2,13 +2,14 @@
 
 #include <fstream>
 #include <iostream>
-
 using namespace std;
 
 int main(){
-    string x;
+    // Input segment
+    string binpath;
     cout << "Enter filepath: "; 
-    cin >> x; // User input
-    cout << "This is your input: " << x;
+    cin >> binpath; // User input
+
+    // cout << "test" << binpath;
     return 0;
 }
