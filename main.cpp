@@ -2,6 +2,7 @@
 
 #include <fstream>
 #include <iostream>
+
 using namespace std;
 
 int main(){
@@ -9,7 +10,7 @@ int main(){
     string binpath;
     cout << "Enter filepath: "; 
     cin >> binpath; // User input
-
+    std::ifstream file(binpath);
     // cout << "test" << binpath;
     return 0;
 }
